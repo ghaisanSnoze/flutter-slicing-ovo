@@ -12,7 +12,7 @@ import '../widgets/service_menu.dart';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  /// Seberapa jauh sheet putih naik menutupi background lavender.
+  /// Seberapa tinggi sheet putih naik nutupin background lavender.
   static const double _sheetOverlap = 22;
 
   @override
@@ -166,7 +166,7 @@ class _Header extends StatelessWidget {
   }
 }
 
-/// Lencana bergerigi ungu dengan tanda persen (ikon "Promo").
+/// Badge ungu bergerigi + tanda persen (ikon "Promo").
 class _PromoBadgeIcon extends StatelessWidget {
   const _PromoBadgeIcon();
 

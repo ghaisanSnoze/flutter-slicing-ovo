@@ -5,9 +5,7 @@ import '../widgets/placeholder_page.dart';
 import 'home_page.dart';
 import 'profile_page.dart';
 
-/// Halaman utama yang memegang bottom navigation.
-/// Hanya tab Home dan Profile yang punya tampilan lengkap,
-/// tab lain (Finance, Pay, Inbox) cuma membuka halaman placeholder.
+/// Halaman utama + bottom nav. Selain Home & Profile, tab lain cuma buka placeholder.
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
@@ -48,7 +46,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // extendBody supaya konten terlihat di belakang tombol QRIS yang menonjol
+      // biar konten tetep keliatan di belakang tombol QRIS
       extendBody: true,
       body: IndexedStack(
         index: _index == 0 ? 0 : 1,

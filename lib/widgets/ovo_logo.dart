@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-/// Logo "OVO" bergaya outline garis ganda seperti di aplikasi asli.
-/// Caranya: teks di-stroke tebal, lalu di-stroke tipis lagi pakai warna
-/// background tepat di tengahnya, jadi kelihatan seperti dua garis.
+/// Logo "OVO" outline garis ganda kayak aslinya.
+/// Triknya: stroke tebal, terus ditimpa stroke tipis warna background.
 class OvoLogo extends StatelessWidget {
   const OvoLogo({
     super.key,
@@ -14,7 +13,7 @@ class OvoLogo extends StatelessWidget {
   final double fontSize;
   final Color color;
 
-  /// Warna di belakang logo, dipakai untuk "membelah" garis.
+  /// Warna background logo, buat "belah" garisnya.
   final Color backgroundColor;
 
   TextStyle _stroke(double width, Color c) => TextStyle(

@@ -33,7 +33,7 @@ class _InfoCardCarouselState extends State<InfoCardCarousel> {
         padEnds: false,
         children: [
           _InfoCard(
-            text: 'Cek data kamu demi kelancaran pemakaian akun OVO Premier kamu',
+            text: 'Cek data kamu dulu yuk, biar akun OVO Premier kamu lancar dipakai',
             button: 'Cek',
             icon: const _KeyIcon(),
             onTap: () => PlaceholderPage.open(context,
@@ -42,7 +42,7 @@ class _InfoCardCarouselState extends State<InfoCardCarousel> {
                 icon: Icons.verified_user_rounded),
           ),
           _InfoCard(
-            text: 'Aktifkan OVO Score dan nikmati limit pinjaman spesial',
+            text: 'Aktifin OVO Score, ada limit pinjaman spesial buat kamu',
             button: 'Aktifkan',
             icon: const _ScoreIcon(),
             onTap: () => PlaceholderPage.open(context,
@@ -104,7 +104,7 @@ class _InfoCard extends StatelessWidget {
               const SizedBox(width: 14),
               Expanded(
                 child: Padding(
-                  // ruang di kanan supaya teks "tertutup" badge stamp
+                  // jarak kanan dikit, teksnya emang sengaja ketutup badge stamp
                   padding: const EdgeInsets.only(right: 8),
                   child: Text(
                     text,
@@ -150,7 +150,7 @@ class _InfoCard extends StatelessWidget {
   }
 }
 
-/// Ikon kunci ungu di atas blob kuning dengan kilau.
+/// Ikon kunci ungu di atas blob kuning yang mengkilap.
 class _KeyIcon extends StatelessWidget {
   const _KeyIcon();
 

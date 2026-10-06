@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
 
-/// Halaman "dummy" untuk semua tombol selain Home & Profile.
-/// Isinya cuma pesan singkat, karena fiturnya memang tidak diminta.
+/// Halaman dummy buat tombol-tombol selain Home & Profile.
 class PlaceholderPage extends StatelessWidget {
   const PlaceholderPage({
     super.key,
@@ -16,7 +15,7 @@ class PlaceholderPage extends StatelessWidget {
   final String message;
   final IconData icon;
 
-  /// Helper biar gampang dipanggil dari mana aja.
+  /// Biar gampang dipanggil dari mana aja.
   static void open(
     BuildContext context, {
     required String title,
@@ -88,7 +87,7 @@ class PlaceholderPage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               const Text(
-                'Fitur ini cuma tampilan aja ya, belum bisa dipakai.',
+                'Ini baru tampilannya aja ya, fiturnya belum bisa dipakai.',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 13, color: AppColors.textGrey),
               ),

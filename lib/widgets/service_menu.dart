@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import 'placeholder_page.dart';
 
-/// Data satu menu layanan.
+/// Data buat satu menu layanan.
 class ServiceItem {
   const ServiceItem({
     required this.label,
@@ -200,7 +200,7 @@ class _Badge extends StatelessWidget {
 }
 
 // ---------------------------------------------------------------------------
-// Ikon-ikon custom (digambar dengan widget, bukan gambar)
+// Ikon custom (digambar pakai widget, bukan file gambar)
 // ---------------------------------------------------------------------------
 
 /// Nabung by Superbank: donat ungu di atas mangkok tosca.
@@ -332,7 +332,7 @@ class _UangElektronikIcon extends StatelessWidget {
   }
 }
 
-/// Ikon kotak membulat berwarna dengan ikon putih di dalamnya.
+/// Kotak rounded berwarna, isinya ikon putih.
 class _BoxIcon extends StatelessWidget {
   const _BoxIcon({
     required this.icon,

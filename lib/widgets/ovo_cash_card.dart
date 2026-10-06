@@ -4,7 +4,7 @@ import '../theme/app_colors.dart';
 import 'ovo_logo.dart';
 import 'placeholder_page.dart';
 
-/// Kartu "OVO Cash" dengan gradient biru-ungu berlapis.
+/// Kartu "OVO Cash" pakai gradient biru-ungu berlapis.
 class OvoCashCard extends StatefulWidget {
   const OvoCashCard({super.key});
 
@@ -207,7 +207,7 @@ class _OvoCashCardState extends State<OvoCashCard> {
   }
 }
 
-/// Gumpalan warna lembut (radial gradient) untuk efek gradient berlapis.
+/// Blob warna lembut (radial gradient) buat efek gradient berlapis.
 class _Blob extends StatelessWidget {
   const _Blob({
     required this.alignment,
@@ -336,7 +336,7 @@ class _CashAction extends StatelessWidget {
   }
 }
 
-/// Lingkaran putih dengan ikon ungu kebiruan (Top Up & Transfer).
+/// Lingkaran putih + ikon ungu kebiruan (Top Up & Transfer).
 class _CircleIcon extends StatelessWidget {
   const _CircleIcon({required this.icon});
   final IconData icon;
@@ -355,7 +355,7 @@ class _CircleIcon extends StatelessWidget {
   }
 }
 
-/// Ikon laci/ATM putih dengan panah ke bawah.
+/// Ikon ATM putih + panah ke bawah.
 class _TarikTunaiIcon extends StatelessWidget {
   const _TarikTunaiIcon();
 
@@ -397,7 +397,7 @@ class _TarikTunaiIcon extends StatelessWidget {
   }
 }
 
-/// Kotak membulat putih dengan tiga garis (History).
+/// Kotak putih rounded isi tiga garis (History).
 class _HistoryIcon extends StatelessWidget {
   const _HistoryIcon();
 

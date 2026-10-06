@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Palet warna yang diambil dari tampilan aplikasi OVO asli.
+/// Warna-warna yang diambil dari aplikasi OVO aslinya.
 class AppColors {
   AppColors._();
 

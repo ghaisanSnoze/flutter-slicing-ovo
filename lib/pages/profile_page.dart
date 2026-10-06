@@ -407,7 +407,7 @@ class _OutlineButton extends StatelessWidget {
   }
 }
 
-/// Ikon barcode sederhana dari kumpulan garis.
+/// Ikon barcode simpel dari garis-garis.
 class _BarcodeIcon extends StatelessWidget {
   const _BarcodeIcon();
 

@@ -14,7 +14,7 @@ void main() {
     expect(find.text('OVO Stamp'), findsOneWidget);
   });
 
-  testWidgets('Tombol Pay membuka halaman placeholder', (tester) async {
+  testWidgets('Tombol Pay buka halaman placeholder', (tester) async {
     await tester.pumpWidget(const OvoApp());
     await tester.tap(find.text('Pay'));
     await tester.pumpAndSettle();

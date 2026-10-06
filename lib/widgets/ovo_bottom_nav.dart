@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
 
-/// Bottom navigation bar OVO: Home, Finance, Pay (QRIS menonjol), Inbox, Profile.
+/// Bottom nav OVO: Home, Finance, Pay (QRIS), Inbox, Profile.
 class OvoBottomNav extends StatelessWidget {
   const OvoBottomNav({
     super.key,
@@ -14,7 +14,7 @@ class OvoBottomNav extends StatelessWidget {
   final int currentIndex;
   final ValueChanged<int> onTap;
 
-  /// Tinggi area transparan di atas bar untuk tombol QRIS yang "nongol".
+  /// Tinggi area kosong di atas bar, buat tombol QRIS yang nongol.
   static const double raisedOverflow = 26;
   static const double barHeight = 68;
 
@@ -59,7 +59,7 @@ class OvoBottomNav extends StatelessWidget {
                     onTap: () => onTap(1),
                     icon: (c) => _RpIcon(color: c),
                   ),
-                  // Ruang kosong untuk tombol QRIS + label "Pay"
+                  // Tempat tombol QRIS + label "Pay"
                   Expanded(
                     child: GestureDetector(
                       behavior: HitTestBehavior.opaque,
@@ -102,7 +102,7 @@ class OvoBottomNav extends StatelessWidget {
             ),
           ),
 
-          // Tombol QRIS bulat yang menonjol ke atas
+          // Tombol QRIS bulat yang nongol ke atas
           Positioned(
             top: 0,
             left: 0,
@@ -187,7 +187,7 @@ class _NavItem extends StatelessWidget {
   }
 }
 
-/// Ikon bulat bertuliskan "Rp".
+/// Ikon bulat tulisan "Rp".
 class _RpIcon extends StatelessWidget {
   const _RpIcon({required this.color});
   final Color color;
@@ -257,7 +257,7 @@ class _InboxIcon extends StatelessWidget {
   }
 }
 
-/// Tulisan "QRIS" dengan kotak QR kecil di depannya.
+/// Tulisan "QRIS" + kotak QR kecil di depannya.
 class _QrisLogo extends StatelessWidget {
   const _QrisLogo();
 
