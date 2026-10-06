@@ -97,7 +97,7 @@ class ProfilePage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Dian',
+                          'Ghaisan Apip',
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.w700,
