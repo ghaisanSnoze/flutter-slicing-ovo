@@ -1,6 +1,6 @@
 # Slicing OVO — Tugas Praktikum Flutter
 
-Slicing tampilan aplikasi **OVO** buat tugas Mobile Programming, Kelas XI RPL.
+Slicing tampilan aplikasi OVO untuk tugas mobile programming, kelas XI RPL.
 
 ## Fitur
 - **Home**: header OVO + Promo, kartu OVO Cash bergradient (tap "Tap untuk lihat" untuk lihat saldo),
@@ -10,7 +10,7 @@ Slicing tampilan aplikasi **OVO** buat tugas Mobile Programming, Kelas XI RPL.
 - Tombol lain (Finance, Pay/QRIS, Inbox, Top Up, Transfer, menu layanan, dll) bisa dipencet,
   nanti kebuka halaman simpel, contohnya: **"Bayar lewat sini yaa :)"**.
 
-## Struktur
+## Struktur Folder
 ```
 lib/
 ├── main.dart
@@ -28,7 +28,7 @@ lib/
     └── placeholder_page.dart
 ```
 
-## Cara Jalanin
+## Cara Menjalankan
 ```bash
 flutter pub get
 flutter run
@@ -37,6 +37,7 @@ flutter run
 ## Screenshot
 | Home | Profile |
 |------|---------|
-| ![Home](screenshots/home.png) | ![Profile](screenshots/profile.png) |
+| ![Home](<img width="534" height="1036" alt="Screenshot from 2026-10-07 11-28-22" src="https://github.com/user-attachments/assets/fc187845-cc53-48f7-bfba-36199f8c745c" />) | ![Profile](<img width="534" height="1036" alt="Screenshot from 2026-10-07 11-30-13" src="https://github.com/user-attachments/assets/9c67c122-f4c3-4211-aec4-1ea6343b9464" />
+) |
 
 Font: Plus Jakarta Sans (SIL Open Font License).
