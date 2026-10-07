@@ -37,7 +37,6 @@ flutter run
 ## Screenshot
 | Home | Profile |
 |------|---------|
-| ![Home](<img width="534" height="1036" alt="Screenshot from 2026-10-07 11-28-22" src="https://github.com/user-attachments/assets/fc187845-cc53-48f7-bfba-36199f8c745c" />) | ![Profile](<img width="534" height="1036" alt="Screenshot from 2026-10-07 11-30-13" src="https://github.com/user-attachments/assets/9c67c122-f4c3-4211-aec4-1ea6343b9464" />
-) |
+| ![Home](<img width="534" height="1036" alt="Screenshot from 2026-10-07 11-28-22" src="https://github.com/user-attachments/assets/fc187845-cc53-48f7-bfba-36199f8c745c" />) | ![Profile](<img width="534" height="1036" alt="Screenshot from 2026-10-07 11-30-13" src="https://github.com/user-attachments/assets/9c67c122-f4c3-4211-aec4-1ea6343b9464" />) |
 
 Font: Plus Jakarta Sans (SIL Open Font License).
